@@ -1,15 +1,14 @@
-﻿/*
-напишите программу, которая принимает на вход число и проверяет,
-кратно ли оно одновременно 7 и 23.
+﻿/* Напишите программу, которая выводит случайное трехзначное число и удаляет
+вторую цифру этого числа.
+456 -> 46
+782 -> 72
+918 -> 98
 */
 
-System.Console.WriteLine("Введите первое число ");
-int number = Convert.ToInt32(Console.ReadLine());
-if(number % 7 == 0 & number % 23 == 0)
-{
-   System.Console.WriteLine("Да ");
-}
-else
-{
-    System.Console.WriteLine("Нет ");
-}
+int number = new Random().Next(100, 1000);
+System.Console.WriteLine("Выпал рандом: " + number);
+
+int first = number / 100;
+int last = number % 10;
+System.Console.Write(first);
+System.Console.Write(last);

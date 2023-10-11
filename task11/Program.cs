@@ -10,5 +10,5 @@ System.Console.WriteLine("Выпал рандом: " + number);
 
 int first = number / 100;
 int last = number % 10;
-System.Console.Write(first);
-System.Console.Write(last);
+int resalt = first * 10 + last;
+System.Console.Write(resalt);

@@ -6,7 +6,7 @@
 System.Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int resalt = 0;
-for (int i = number; i >= 100; i = i / 10)
+for (int i = number; i >= 100; i = i / 10) // В команде фор мы принимаем число, сравниваем его если больше 3 х значного делим на 10
 {
    resalt = i % 10; 
 }

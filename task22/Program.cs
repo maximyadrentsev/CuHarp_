@@ -12,5 +12,5 @@ int num = int.Parse(Console.ReadLine());
 
 for (int i = 1; i <= num; i++)
 {
-    System.Console.WriteLine($"{i} * {i} = {i*i} ");
+    System.Console.WriteLine($"{i} * {i} = {i*i} "); // $ интерполяция значения
 }

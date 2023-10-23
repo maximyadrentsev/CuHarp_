@@ -4,13 +4,20 @@
 5 -> 1, 4, 9, 16, 25/
 2 -> 1, 4.
 
-*/ 
+*/
 
 Console.Clear();
+
+void Numbern(int numb)
+{
+    for (int i = 1; i <= numb; i++)
+    {
+        System.Console.WriteLine($"{i} * {i} = {i * i} "); // $ интерполяция значения
+    }
+}
+
+
 System.Console.WriteLine("Введите число ");
 int num = int.Parse(Console.ReadLine());
 
-for (int i = 1; i <= num; i++)
-{
-    System.Console.WriteLine($"{i} * {i} = {i*i} "); // $ интерполяция значения
-}
+Numbern(num);

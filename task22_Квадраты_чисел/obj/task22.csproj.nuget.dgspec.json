@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Максим\\Desktop\\С#\\task22\\task22.csproj": {}
+    "C:\\Users\\Максим\\Desktop\\С#\\task22_Квадраты_чисел\\task22.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Максим\\Desktop\\С#\\task22\\task22.csproj": {
+    "C:\\Users\\Максим\\Desktop\\С#\\task22_Квадраты_чисел\\task22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Максим\\Desktop\\С#\\task22\\task22.csproj",
+        "projectUniqueName": "C:\\Users\\Максим\\Desktop\\С#\\task22_Квадраты_чисел\\task22.csproj",
         "projectName": "task22",
-        "projectPath": "C:\\Users\\Максим\\Desktop\\С#\\task22\\task22.csproj",
+        "projectPath": "C:\\Users\\Максим\\Desktop\\С#\\task22_Квадраты_чисел\\task22.csproj",
         "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Максим\\Desktop\\С#\\task22\\obj\\",
+        "outputPath": "C:\\Users\\Максим\\Desktop\\С#\\task22_Квадраты_чисел\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -5,7 +5,7 @@
 14212 -> False
 12821 -> True
 234322 -> Число не пятизначное
-*/ 
+*/
 
 
 Console.Clear();
@@ -35,19 +35,56 @@ else
     System.Console.WriteLine("Не пятизначное число ");
 }
 */
+
+
+/*void Palindrome(int num)
+
+{
+    int rewnumber = 0;
+    for (int i = num; i > 0; i = i / 10)
+    {
+        rewnumber = rewnumber * 10 + i % 10;
+    }
+    if (num == rewnumber)
+    {
+        System.Console.WriteLine("ДА");
+    }
+    else
+    {
+        System.Console.WriteLine("Нет");
+    }
+}
 System.Console.WriteLine("Введите число ");
 int number = Convert.ToInt32(Console.ReadLine());
-int rewnumber = 0;
+Palindrome(number);
+*/
 
-for (int i = number; i > 0; i = i / 10)
+
+
+int UserRevers(int a)
 {
-    rewnumber = rewnumber * 10 + i % 10;
+    int rewnumber = 0;
+    for (int i = a; i > 0; i = i / 10)
+    {
+        rewnumber = rewnumber * 10 + i % 10;
+    }
+    return rewnumber;
 }
-if (number == rewnumber)
+System.Console.WriteLine("Введите число ");
+int number = Convert.ToInt32(Console.ReadLine());
+int rewnumber = UserRevers(number);
+
+
+void Revers(int a, int b)
 {
-    System.Console.WriteLine("ДА");
+    if (a == b)
+    {
+        System.Console.WriteLine("ДА");
+    }
+    else
+    {
+        System.Console.WriteLine("Нет");
+    }
 }
-else
-{
-    System.Console.WriteLine("Нет");
-}
+Revers(number, rewnumber);
+

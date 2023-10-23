@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FghFt5aKLF0YmNPmbD692m1/ST2DkxPHHcg2rlSBkJyP5kwRZuR7PfWDiRAWDECUE4KdTTuzylHbHkwZV+ZTmg==",
+  "dgSpecHash": "UV31x0qrinXoig89G7UgvEBjJJCxS5JSAzrt4eA73uWD0GZDMm7ifHBliQpr76Ie+v40Wf3eerGc4IbOiXQhdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Максим\\Desktop\\С#\\task19\\task19.csproj",
+  "projectFilePath": "C:\\Users\\Максим\\Desktop\\С#\\task19_палиндром\\task19.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

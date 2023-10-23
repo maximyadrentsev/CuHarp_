@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Максим\\Desktop\\С#\\task19\\task19.csproj",
+      "projectUniqueName": "C:\\Users\\Максим\\Desktop\\С#\\task19_палиндром\\task19.csproj",
       "projectName": "task19",
-      "projectPath": "C:\\Users\\Максим\\Desktop\\С#\\task19\\task19.csproj",
+      "projectPath": "C:\\Users\\Максим\\Desktop\\С#\\task19_палиндром\\task19.csproj",
       "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Максим\\Desktop\\С#\\task19\\obj\\",
+      "outputPath": "C:\\Users\\Максим\\Desktop\\С#\\task19_палиндром\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config"

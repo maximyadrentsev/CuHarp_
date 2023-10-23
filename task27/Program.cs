@@ -10,7 +10,7 @@ Console.Clear();
 System.Console.WriteLine("Введите число: ");
 int numb = Convert.ToInt32(Console.ReadLine());
 
-int Numbers(int num)
+int Sumnumbers(int num)
 {
     int summ = 0;
     int resalt = 0;
@@ -21,5 +21,5 @@ int Numbers(int num)
     }
     return summ;
 }
-int userresalt = Numbers(numb);
+int userresalt = Sumnumbers(numb);
 Console.WriteLine("Сумма цифр в числе " + userresalt);

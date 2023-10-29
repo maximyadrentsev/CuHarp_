@@ -28,6 +28,7 @@ void PrintArray(int[] arr)
     System.Console.Write("[");
     for (int i = 0; i < arr.Length; i++)
     {
+        Thread.Sleep(190); // задержка при печати в терминал
         System.Console.Write(arr[i]);
         if (i < arr.Length - 1)
         {

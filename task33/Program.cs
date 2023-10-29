@@ -3,16 +3,16 @@
 которая определяет, присутствует ли заданное число в 
 массиве
 4; массив [6, 7, 19, 345, 3] -> нет
--3; массив [6, 7, 19, 345, 3] -> да 
+-3; массив [6, 7, 19, 345, -3] -> да 
 */
 Console.Clear();
 
-int[] GetRnd(int size)
+int[] GetRnd(int size, int min, int max)
 {
     int[] array = new int[size];
     for (int i = 0; i < size; i++)
     {
-        array[i] = new Random().Next(-9, 10);
+        array[i] = new Random().Next(min, max + 1);
     }
     return array;
 }
@@ -24,22 +24,40 @@ void PrintArray(int[] arr1)
         System.Console.Write(arr1[i] + " ");
     }
   }
+/*
+void IsExist(int[] array, int target)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        if(array[i] == target)
+        System.Console.Write($"Число {target} есть в массиве");
+        else if (array[i]!= target)
+        System.Console.Write($"Числа {target} нет в массиве");
+        
+    }
+}
+*/
+
 
 bool IsExist(int[] array, int target)
 {
-    foreach (int element in array)
+    bool resalt = false;
+    for (int i = 0; i < array.Length; i++)
     {
-        if (element == target) return true;
-        if (element * -1 == target) return true;
+        if (array[i] == target)
+            resalt = true; // если цикл нашел нам нужное число в массиве то он возвращает true
     }
-    return false;
+    return resalt;// если цикл не нашел заданное число то он возращает false
 }
 
-System.Console.WriteLine("Задайте цифру: ");
-int number = Convert.ToInt32(Console.ReadLine());
 
-int[] ArrayE = GetRnd(10);
+int[] ArrayE = GetRnd(10, -9, 9);
 PrintArray(ArrayE);
-bool Pravda = IsExist(ArrayE, number);
-System.Console.WriteLine("-->"  + Pravda); 
+System.Console.WriteLine();
+System.Console.WriteLine("Задайте цифру: ");
 
+int number = Convert.ToInt32(Console.ReadLine());
+//IsExist(ArrayE, number);
+
+bool result2 = IsExist(ArrayE, number);
+System.Console.WriteLine((result2)? $"Число {number} в массиве есть":$"Числа {number} в массиве нет" );

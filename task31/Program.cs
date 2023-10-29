@@ -10,30 +10,30 @@
 Console.Clear();
 
 
-int[] GetRnd(int size)
+int[] GetRnd(int size, int min, int max)
 {
     int[] array = new int[size];
     for (int i = 0; i < size; i++)
     {
-       array[i] = new Random().Next(-9, 10);
+       array[i] = new Random().Next(min, max + 1);
     }
     return array;
     System.Console.Write(array + " ");
 }
 
-void SumArray(int[] arr)
+/*void SumArray(int[] arr)
 {
     int summPos = 0;
     int summNeg = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if(arr[i] > 0) summPos = summPos + arr[i];
+        if(arr[i] > 0) summPos = summPos + arr[i];   метод правильный и подходит для решение данной задачи
         else summNeg = summNeg + arr[i];
     }
     System.Console.WriteLine("Сумма положительных чисел в массиве: " + summPos);
     System.Console.WriteLine("Сумма отрицательных чисел в массиве: " + summNeg);
 }
-
+*/
 
   void PrintArray(int[] arr1)
   {
@@ -43,9 +43,38 @@ void SumArray(int[] arr)
     }
   }
 
-int[] userArray = GetRnd(12);
+int SumPositiv(int[] array)
+{
+  int sum = 0;
+  for (int i = 0; i < array.Length; i++)
+  {
+    if(array[i] > 0)
+    {
+      sum = array[i] + sum;
+    }
+  }
+  return sum;
+}
+
+
+int SumNegativ(int[] array1)
+{
+  int sum = 0;
+  for (int i = 0; i < array1.Length; i++)
+  {
+    if(array1[i] < 0)
+    {
+      sum = array1[i] + sum;
+    }
+  }
+  return sum;
+}
+
+int[] userArray = GetRnd(12, -9, 9);
 PrintArray(userArray);
+
+int positiv = SumPositiv(userArray);
+
+int negativ = SumNegativ(userArray);
 System.Console.WriteLine();
-SumArray(userArray);
-
-
+System.Console.WriteLine($"Сумма положительных равна: {positiv}  Сумма отрицательных равна: {negativ}");

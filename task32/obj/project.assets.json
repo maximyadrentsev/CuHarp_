@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Максим\\Desktop\\С#\\tasv32\\tasv32.csproj",
+      "projectUniqueName": "C:\\Users\\Максим\\Desktop\\С#\\task32\\tasv32.csproj",
       "projectName": "tasv32",
-      "projectPath": "C:\\Users\\Максим\\Desktop\\С#\\tasv32\\tasv32.csproj",
+      "projectPath": "C:\\Users\\Максим\\Desktop\\С#\\task32\\tasv32.csproj",
       "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Максим\\Desktop\\С#\\tasv32\\obj\\",
+      "outputPath": "C:\\Users\\Максим\\Desktop\\С#\\task32\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config"

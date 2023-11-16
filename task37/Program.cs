@@ -3,7 +3,7 @@
 Парой считаются первый и последний элемент,
 второй и предпоследний элемент и т.д.
 Результата запишите в новом массиве.
-*/ 
+*/
 
 Console.Clear();
 
@@ -19,7 +19,7 @@ int[] CreateArray(int size, int min, int max)
     return arr;
 }
 
-void Output( int[] arr)
+void Output(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
@@ -29,16 +29,16 @@ void Output( int[] arr)
 
 int[] MultArray(int[] array)
 {
-    int[] result = new int[array.Length - array.Length/2];
+    int[] result = new int[array.Length - array.Length / 2];
     int temp = 0;
-    for (int i = 0; i < array.Length - array.Length/2; i++)
+    for (int i = 0; i < array.Length - array.Length / 2; i++)
     {
-        if(i==array.Length-1-i)
+        if (i == array.Length - 1 - i)
         {
             result[i] = array[i];
-            continue;
+            continue;// заканчивает цикл
         }
-        temp = array[i] * array[array.Length-1-i];
+        temp = array[i] * array[array.Length - 1 - i];// первый элемент массив умножается на последний элемент массива 
         result[i] = temp;
     }
     return result;

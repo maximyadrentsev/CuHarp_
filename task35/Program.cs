@@ -22,6 +22,7 @@ int[] GetRnd(int size)
 
 void PrintArray(int[] arr1)
 {
+    
     for (int i = 0; i < arr1.Length; i++)
     {
         System.Console.Write(arr1[i] + " ");

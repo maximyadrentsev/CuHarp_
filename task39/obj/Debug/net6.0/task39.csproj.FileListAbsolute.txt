@@ -1,0 +1,10 @@
+C:\Users\Максим\Desktop\С#\task41\task39\obj\Debug\net6.0\task39.csproj.AssemblyReference.cache
+C:\Users\Максим\Desktop\С#\task41\task39\obj\Debug\net6.0\task39.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\Desktop\С#\task41\task39\obj\Debug\net6.0\task39.AssemblyInfoInputs.cache
+C:\Users\Максим\Desktop\С#\task41\task39\obj\Debug\net6.0\task39.AssemblyInfo.cs
+C:\Users\Максим\Desktop\С#\task41\task39\obj\Debug\net6.0\task39.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Desktop\С#\task39\obj\Debug\net6.0\task39.csproj.AssemblyReference.cache
+C:\Users\Максим\Desktop\С#\task39\obj\Debug\net6.0\task39.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\Desktop\С#\task39\obj\Debug\net6.0\task39.AssemblyInfoInputs.cache
+C:\Users\Максим\Desktop\С#\task39\obj\Debug\net6.0\task39.AssemblyInfo.cs
+C:\Users\Максим\Desktop\С#\task39\obj\Debug\net6.0\task39.csproj.CoreCompileInputs.cache
